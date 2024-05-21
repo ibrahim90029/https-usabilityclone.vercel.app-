@@ -1,0 +1,127 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:	border-box;
+}
+
+html,body{
+    height:	100%;
+    width:	100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(to top left , aqua,white);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    flex-wrap: wrap;
+    z-index: 10;
+    justify-content: center;
+    height: 450px;
+    background:linear-gradient(to top left,#ffffffff,#ffffff33);
+    background-color: #ffffff09;
+    backdrop-filter: blur(8px);
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px rosybrown;
+
+}
+.inputs{
+    
+    margin: 10px;
+}
+.inputs label{
+    display: block;
+    font-size: larger;
+    padding-bottom: 10px;
+
+}
+.inputs input{
+    font-size: large;
+    text-align: start;
+    padding: 5px 50px;
+    /* border: 2px solid dimgray; */
+    border-radius: 4px;
+}
+.inputs input:hover{
+    
+    border: 2px solid rgb(59, 55, 55);
+   
+}
+
+h1{
+   
+    font-size: 40px;
+    margin-bottom: 7px;
+    font-family: Times, serif;
+}
+p{
+    color:dimgray;
+    font-size: large;
+}
+.last{
+    color:dimgray;
+    margin-top: 20px;
+    font-size: large;
+}
+
+u{
+    color: rgb(8, 11, 177);
+    cursor: pointer;
+    font-family: sans-serif;
+}
+u:hover{
+    color: rgb(13, 13, 31);
+}
+
+.btn{
+    width: 90%;
+    padding: 5px 50px;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:large;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 4px;
+    z-index: 10;
+    margin:14px;
+    /* border: 1px solid gray; */
+    background-color: blue;
+    box-shadow: 2px 2px 6px gray;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(50, 50, 90);
+}
+.circle1{
+    width: 200px;
+    position: absolute;
+    right: 30px;
+   
+    top: 30px;
+    height: 200px;
+    background:linear-gradient(to right ,#ffffffaa,#ffff);
+    border-radius: 50%;
+    
+}
+.circle2{
+    width: 200px;
+    position: absolute;
+    left: 30px;
+    bottom:30px;
+    background:linear-gradient(to top right ,#ffffffaa,#ffff);
+  
+    height: 200px;
+    /* background-color: white ; */
+    border-radius: 50%;
+
+}
